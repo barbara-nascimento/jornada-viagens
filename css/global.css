@@ -16,7 +16,7 @@
   --text-secundary-color: #ffffff;
 
   --titles-weight: 700;
-  --text-weight: 400;
+  --text-weight: 400px;
   --menu-text-weight: 500;
 }
 
@@ -39,7 +39,8 @@ button {
 
 h1 {
   font-family: "Montserrat";
-  font-weight: var(--primary-color);
+  font-weight: var(--titles-weight);
+  color: var(--primary-color);
 }
 
 body{
