@@ -46,6 +46,7 @@ h1 {
 body {
   font-family: "Montserrat";
   color: var(--text-primary-color);
+  background-color: var(--background-primary-color);
 }
 
 .section-title h2 {
