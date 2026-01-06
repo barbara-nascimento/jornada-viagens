@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
@@ -28,6 +28,7 @@ header {
 
 input[type="checkbox"]:checked ~ nav {
   display: block;
+  position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
@@ -97,12 +98,12 @@ nav {
     display: none;
   }
 
-  .list-links a:hover {
+  .navigation-menu a:hover {
     color: var(--primary-color);
   }
 }
 
-@media screen and (min-width: 1920) {
+@media screen and (min-width: 1920px) {
   header {
     padding: 38px 160px;
   }
