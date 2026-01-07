@@ -1,7 +1,56 @@
+
+
 .destinations .item header {
   display: block;
   background-color: transparent;
   position: static;
   padding: 0;
   margin-bottom: 24px;
+}
+
+.destinations .item img {
+    width: 312px;
+    height: 360px;
+}
+
+.destinations h4 {
+    font-weight: var(--titles-weight);
+    font-size: 28px;
+    margin: 24px  auto;
+}
+
+.destinations p {
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+
+.destinations a {
+    text-align: center;
+    width: 312px;
+    height: 64px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .destinations .item img {
+    width: 648px;
+    height: 452px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+    .destinations .item img {
+    width: 588px;
+    height: 452px;
+}
+.container {
+  display: flex;
+  gap: 24px;
+}
+
+.destinations hr {
+  margin: 16px auto 64px;
+}
 }

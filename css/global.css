@@ -91,14 +91,14 @@ section.bottom-hero {
   line-height: 32px;
 }
 
-.button {
+.buttom {
   width: 280px;
   height: 64px;
   color: var(--text-secundary-color);
   font-weight: var(--titles-weight);
   font-size: 20px;
   background-color: var(--secundary-color);
-  border-radius: 16px;
+  border-radius: 8px;
   display: inline-block;
   text-decoration: none;
   line-height: 64px;
@@ -110,6 +110,7 @@ section.bottom-hero {
   }
   .section-title {
     width: 100%;
+    margin: 0 auto 32px;
   }
   .section-title h2 {
     font-size: 32px;
