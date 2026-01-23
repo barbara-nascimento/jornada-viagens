@@ -10,7 +10,7 @@
 }
 
 .offers-cards .card {
-  color: var(--text-secundary-color);
+  color: var(--text-secondary-color);
   background-color: black;
   padding: 24px 16px;
   width: 312px;
@@ -21,10 +21,6 @@
 }
 
 .offers-cards .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
   margin-bottom: 24px;
 }
 

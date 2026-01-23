@@ -44,7 +44,6 @@
 .travel-packages .hero-content h1 {
   font-size: 48px;
   color: var(--text-secondary-color);
-  font-weight: var(--titles-weight);
 }
 
 .travel-packages .hero-content hr {
@@ -69,7 +68,7 @@
     background-size: cover;
   }
 
-  .bottom-hero .hero-img {
+  .button-hero .hero-img {
     height: 400px;
     background: url(../img/bg-bottom-hero-tablet.jpg) no-repeat;
     background-size: cover;
@@ -78,6 +77,10 @@
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
+    font-weight: var(--text-weight);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
   }
 
   /*PACOTES DE VIAGENS*/
