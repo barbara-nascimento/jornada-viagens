@@ -35,9 +35,14 @@
   line-height: 32px;
 }
 
+
 @media screen and (min-width: 1024px) {
   .testimonial-container header {
     padding: 0px;
+  }
+
+  .travel-packages.testimonials .testimonial-container article footer .profile-content h4 {
+    font-size: 20px;
   }
 }
 
